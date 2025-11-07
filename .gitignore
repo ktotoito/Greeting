@@ -1,0 +1,11 @@
+node_modules
+.vscode-test.mjs
+*.vsix
+.env
+CHANGELOG.md
+vsc-extension-quickstart.md
+test/
+eslint.config.mjs
+jsconfig.json
+package-lock.json
+.vscode
