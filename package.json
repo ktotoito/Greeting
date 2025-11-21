@@ -4,18 +4,26 @@
   "description": "Says a passive-agressive hello to you after a long break",
   "version": "0.0.1",
   "publisher": "ktotoito",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktotoito/Greeting"
+  },
   "engines": {
     "vscode": "^1.105.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "greeting.helloWorld",
-      "title": "Hello World"
+      "command": "hello.change_interval",
+      "title": "Change Interval"
+    },
+    {
+      "command": "hello.picked_interval",
+      "title": "Picked Interval"
     }]
   },
   "scripts": {
