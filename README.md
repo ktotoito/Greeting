@@ -16,13 +16,13 @@ Greeting - это расширение для Visual Studio Code, которое
 
 ### Структура проекта
 Greeting/
-├── media/
-│ └── angry-fern.gif
-├── README.md
-├── .gitignore
-├── .vscodeignore
-├── extension.js
-└──  package.json
+ ├── media/
+ │ └── angry-fern.gif
+ ├── README.md
+ ├── .gitignore
+ ├── .vscodeignore
+ ├── extension.js
+ └──  package.json
 
 ---
 
